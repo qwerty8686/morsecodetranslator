@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+:root{
+    --primary-color: #F3F4F6;
+}
+body{
+    font-family: 'Play', sans-serif;
+    background-image: url("morsecode.png");
+}
+
+.center{
+    text-align: center;
+}
+.align{
+    display: block;
+    margin: auto;
+}
+.border{
+border: 0.2rem solid black;
+}
+.dim{
+    width: 70%;
+    height: 8rem;
+}
+.margin-bottom{
+    margin-bottom: 1rem;
+}
+.bg{
+    background-color: var(--primary-color);
+    width: fit-content;
+    border-radius: 1rem;
+}
+.padding{
+    padding: 1rem;
+}
+.button-dim{
+    width: 10rem;
+    height: 2rem;
+    font-weight: bold;
+}
