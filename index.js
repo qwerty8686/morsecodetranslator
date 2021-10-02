@@ -3,7 +3,7 @@ var textInput = document.querySelector("#text");
 var output = document.querySelector("#morse");
 
 var button = document.querySelector("#button");
-
+// var
 var URL = "https://api.funtranslations.com/translate/morse.json";
 
 function errorHandler(error){
